@@ -2,8 +2,9 @@ package com.chessgame.chess;
 
 import com.chessgame.boardgame.Board;
 import com.chessgame.boardgame.Piece;
+import com.chessgame.boardgame.Position;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 
